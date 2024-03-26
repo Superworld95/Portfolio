@@ -1,0 +1,46 @@
+#myBox {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(37, 211, 242);
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    z-index: -5;
+    outline-style: solid;
+    outline-width: 10px;
+}
+
+#myCircleY {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    border-radius: 50%;      
+    z-index: -5;
+    outline-style: solid;
+    outline-width: 10px;
+}
+#myCircleR {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(234, 28, 28);
+    position: absolute;
+    top: 108px;
+    left: 310px;
+    border-radius: 50%;      
+    z-index: -5;
+    outline-style: solid;
+    outline-width: 10px;
+}
+.allFonts {
+    color: rgb(198, 181, 198);
+    font-size: 40px;
+    font-family: arial;
+    overflow-y: scroll;
+}
+
+body {
+    background-color: WHITE;
+}
