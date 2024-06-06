@@ -226,9 +226,10 @@
   height: 400px;
   background-color: rgb(89, 20, 238);
   position: absolute;
-  top: 80px;
+  top: 120px;
   left: 80px;
-   
+  border-radius: 50%;
+  z-index: 1;
   outline-style: solid;
   outline-width: 5px;    
 }
@@ -240,9 +241,9 @@
   border-top: 200px solid;
   border-color: rgb(52, 134, 228) transparent;
   position: absolute;
-  top: 80px;
+  top: 120px;
   left: 180px;
-       
+  z-index: 1;    
 }
 #grassLand {
   width: 0px;
@@ -252,9 +253,9 @@
   border-top: 200px solid;
   border-color: rgb(52, 228, 102) transparent;
   position: absolute;
-  top: 120px;
+  top: 160px;
   left: 260px;
-   
+  z-index: 1;
   transform: rotate(53deg);
 }
 #hotLand {
@@ -265,9 +266,9 @@
   border-top: 200px solid;
   border-color: rgb(228, 52, 52) transparent;
   position: absolute;
-  top: 208px;
+  top: 228px;
   left: 275px;
-       
+  z-index: 1;    
   transform: rotate(106deg);
 }
 #sweetLand {
@@ -278,9 +279,9 @@
   border-top: 200px solid;
   border-color: rgb(250, 43, 177) transparent;
   position: absolute;    
-  top: 268px;
+  top: 288px;
   left: 224px;
-       
+  z-index: 1;    
   transform: rotate(154deg);
 }
 #waterLand {
@@ -291,9 +292,9 @@
   border-top: 200px solid;
   border-color: rgb(255, 237, 70) transparent;
   position: absolute;    
-  top: 268px;
+  top: 288px;
   left: 133px;
-       
+  z-index: 1;    
   transform: rotate(208deg);
 }
 #snowLand {
@@ -304,9 +305,9 @@
   border-top: 200px solid;
   border-color: rgb(128, 196, 254) transparent;
   position: absolute;    
-  top: 195px;
+  top: 215px;
   left: 80px;
-       
+  z-index: 1;    
   transform: rotate(262deg);
 }
 #spaceLand {
@@ -317,9 +318,9 @@
   border-top: 200px solid;
   border-color: rgb(138, 3, 172) transparent;
   position: absolute;    
-  top: 110px;
+  top: 130px;
   left: 105px;
-       
+  z-index: 1;    
   transform: rotate(312deg);
 }
 
@@ -331,7 +332,7 @@
   top: 80px;
   left: 80px;
   border-radius: 50%;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 50px;    
 }
@@ -344,9 +345,9 @@
   border-top: 100px solid;
   border-color: rgb(225, 226, 195) transparent;
   position: absolute;
-  top: 1px;
+  top: 21px;
   left: 240px;
-   
+  z-index: 1;
   transform: rotate(180deg);
 }
 #castleSpireL {
@@ -354,9 +355,9 @@
   height: 50px;
   background-color: rgb(255, 188, 235);
   position: absolute;
-  top: 40px;
+  top: 60px;
   left: 230px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   transform: rotate(340deg);
@@ -366,9 +367,9 @@
   height: 50px;
   background-color: rgb(255, 188, 235);
   position: absolute;
-  top: 40px;
+  top: 60px;
   left: 320px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   transform: rotate(20deg);
@@ -378,9 +379,9 @@
   height: 30px;
   background-color: rgb(225, 226, 195);
   position: absolute;
-  top: 22px;
+  top: 42px;
   left: 220px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -391,9 +392,9 @@
   height: 30px;
   background-color: rgb(225, 226, 195);
   position: absolute;
-  top: 22px;
+  top: 42px;
   left: 330px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -406,9 +407,9 @@
   border-top: 100px solid;
   border-color: rgb(225, 226, 195) transparent;
   position: absolute;
-  top: 1px;
+  top: 21px;
   left: 240px;
-   
+  z-index: 1;
   transform: rotate(180deg);
 }
 #castleEntrance {
@@ -416,9 +417,9 @@
   height: 30px;
   background-color: rgb(150, 151, 116);
   position: absolute;
-  top: 75px;
+  top: 95px;
   left: 275px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
 }
@@ -430,9 +431,9 @@
   border-top: 50px solid;
   border-color: rgb(242, 14, 14) transparent;
   position: absolute;
-  top: 1px;
+  top: 21px;
   left: 265px;
-   
+  z-index: 1;
   transform: rotate(180deg);
 }
 
@@ -441,9 +442,9 @@
   height: 100px;
   background-color: rgb(255, 188, 239);
   position: absolute;
-  top: 90px;
+  top: 110px;
   left: 420px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -453,9 +454,9 @@
   height: 155px;
   background-color: transparent;
   position: absolute;
-  top: 50px;
+  top: 70px;
   left: 400px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 8px;
   border-radius: 50%;
@@ -466,9 +467,9 @@
   height: 145px;
   background-color: transparent;
   position: absolute;
-  top: 55px;
+  top: 75px;
   left: 404px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 8px;
   border-radius: 50%;
@@ -479,9 +480,9 @@
   height: 130px;
   background-color: transparent;
   position: absolute;
-  top: 62px;
+  top: 82px;
   left: 414px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 8px;
   border-radius: 50%;
@@ -492,9 +493,9 @@
   height: 120px;
   background-color: transparent;
   position: absolute;
-  top: 65px;
+  top: 85px;
   left: 420px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 8px;
   border-radius: 50%;
@@ -505,9 +506,9 @@
   height: 110px;
   background-color: transparent;
   position: absolute;
-  top: 70px;
+  top: 90px;
   left: 424px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 8px;
   border-radius: 50%;
@@ -518,9 +519,9 @@
   height: 100px;
   background-color: transparent;
   position: absolute;
-  top: 75px;
+  top: 95px;
   left: 428px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 8px;
   border-radius: 50%;
@@ -531,9 +532,9 @@
   height: 75px;
   background-color: rgb(247, 255, 1);
   position: absolute;
-  top: 102px;
+  top: 122px;
   left: 430px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -543,9 +544,9 @@
   height: 75px;
   background-color: rgb(247, 255, 1);
   position: absolute;
-  top: 102px;
+  top: 122px;
   left: 430px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -555,9 +556,9 @@
   height: 75px;
   background-color: rgb(171, 107, 34);
   position: absolute;
-  top: 130px;
+  top: 150px;
   left: 350px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -566,27 +567,27 @@
 #hotSpewL {
   width: 30px;
   height: 90px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;    
   background-color: rgb(213, 22, 22);
   position: absolute;
-  top: 220px;
+  top: 240px;
   left: 500px;
-       
+  z-index: 1;    
   transform: rotate(85deg);
 }
 #hotSpewR {
   width: 30px;
   height: 90px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;    
   background-color: rgb(213, 22, 22);
   position: absolute;
-  top: 350px;
+  top: 370px;
   left: 470px;
-       
+  z-index: 1;    
   transform: rotate(125deg);
 }
 #hotBlastL {
@@ -594,9 +595,9 @@
   height: 75px;
   background-color: rgb(254, 173, 34);
   position: absolute;
-  top: 222px;
+  top: 242px;
   left: 540px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -606,9 +607,9 @@
   height: 75px;
   background-color: rgb(254, 173, 34);
   position: absolute;
-  top: 402px;
+  top: 422px;
   left: 510px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -621,22 +622,22 @@
   border-top: 100px solid;
   border-color: rgb(160, 111, 20) transparent;
   position: absolute;
-  top: 280px;
+  top: 300px;
   left: 440px;
-       
+  z-index: 1;    
   transform: rotate(286deg);
 }
 #hotHead {
   width: 30px;
   height: 30px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;    
   background-color: rgb(213, 22, 22);
   position: absolute;
-  top: 325px;
+  top: 345px;
   left: 530px;
-       
+  z-index: 1;    
   transform: rotate(106deg);
 }
 #sweetOrange {
@@ -644,9 +645,9 @@
   height: 75px;
   background-color: rgb(254, 173, 34);
   position: absolute;
-  top: 462px;
+  top: 482px;
   left: 310px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -656,9 +657,9 @@
   height: 75px;
   background-color: rgb(48, 132, 55);
   position: absolute;
-  top: 415px;
+  top: 435px;
   left: 390px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -666,27 +667,27 @@
 #sweetStickL {
   width: 30px;
   height: 130px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;    
   background-color: rgb(93, 65, 9);
   position: absolute;
-  top: 420px;
+  top: 440px;
   left: 470px;
-       
+  z-index: 1;    
   transform: rotate(100deg);
 }
 #sweetStickR {
   width: 30px;
   height: 130px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;    
   background-color: rgb(93, 65, 9);
   position: absolute;
-  top: 460px;
+  top: 480px;
   left: 350px;
-       
+  z-index: 1;    
   transform: rotate(190deg);
 }
 #sweetCake2 {
@@ -697,9 +698,9 @@
   border-top: 100px solid;
   border-color: rgb(214, 239, 147) transparent;
   position: absolute;
-  top: 475px;
+  top: 495px;
   left: 340px;
-       
+  z-index: 1;    
   transform: rotate(30deg);
 }
 #sweetCake1 {
@@ -710,9 +711,9 @@
   border-top: 100px solid;
   border-color: rgb(214, 239, 147) transparent;
   position: absolute;
-  top: 425px;
+  top: 445px;
   left: 300px;
-       
+  z-index: 1;    
   transform: rotate(30deg);
 }
 #sweetBerry {
@@ -723,74 +724,74 @@
   border-top: 50px solid;
   border-color: rgb(230, 64, 64) transparent;
   position: absolute;
-  top: 525px;
+  top: 545px;
   left: 410px;
-       
+  z-index: 1;    
   transform: rotate(90deg);
 }
 #waterTree {
   width: 30px;
   height: 100px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;    
   background-color: rgb(186, 134, 29);
   position: absolute;
-  top: 420px;
+  top: 440px;
   left: 180px;
-       
+  z-index: 1;    
   transform: rotate(200deg);
 }
 #waterLeaves1 {
   width: 30px;
   height: 70px;
-   
-  outline-style: solid;
-  outline-width: 0px;    
-  background-color: rgb(78, 218, 54);
-  position: absolute;
-  top: 460px;
-  left: 130px;
-       
-  transform: rotate(270deg);
-}
-#waterLeaves2 {
-  width: 30px;
-  height: 70px;
-   
-  outline-style: solid;
-  outline-width: 0px;    
-  background-color: rgb(78, 218, 54);
-  position: absolute;
-  top: 490px;
-  left: 130px;
-       
-  transform: rotate(240deg);
-}
-#waterLeaves3 {
-  width: 30px;
-  height: 70px;
-   
-  outline-style: solid;
-  outline-width: 0px;    
-  background-color: rgb(78, 218, 54);
-  position: absolute;
-  top: 500px;
-  left: 170px;
-       
-  transform: rotate(170deg);
-}
-#waterLeaves4 {
-  width: 30px;
-  height: 70px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;    
   background-color: rgb(78, 218, 54);
   position: absolute;
   top: 480px;
+  left: 130px;
+  z-index: 1;    
+  transform: rotate(270deg);
+}
+#waterLeaves2 {
+  width: 30px;
+  height: 70px;
+  z-index: 1;
+  outline-style: solid;
+  outline-width: 0px;    
+  background-color: rgb(78, 218, 54);
+  position: absolute;
+  top: 510px;
+  left: 130px;
+  z-index: 1;    
+  transform: rotate(240deg);
+}
+#waterLeaves3 {
+  width: 30px;
+  height: 70px;
+  z-index: 1;
+  outline-style: solid;
+  outline-width: 0px;    
+  background-color: rgb(78, 218, 54);
+  position: absolute;
+  top: 520px;
+  left: 170px;
+  z-index: 1;    
+  transform: rotate(170deg);
+}
+#waterLeaves4 {
+  width: 30px;
+  height: 70px;
+  z-index: 1;
+  outline-style: solid;
+  outline-width: 0px;    
+  background-color: rgb(78, 218, 54);
+  position: absolute;
+  top: 500px;
   left: 190px;
-       
+  z-index: 1;    
   transform: rotate(120deg);
 }
 #snowManBody {
@@ -798,9 +799,9 @@
   height: 75px;
   background-color: rgb(255, 255, 255);
   position: absolute;
-  top: 280px;
+  top: 300px;
   left: 50px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -810,9 +811,9 @@
   height: 60px;
   background-color: rgb(255, 255, 255);
   position: absolute;
-  top: 294px;
+  top: 314px;
   left: 20px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -820,14 +821,14 @@
 #snowManHat {
   width: 60px;
   height: 30px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;    
   background-color: rgb(186, 29, 29);
   position: absolute;
-  top: 315px;
+  top: 335px;
   left: -15px;
-       
+  z-index: 1;    
   transform: rotate(75deg);
 }
 #snowEyeL {
@@ -835,9 +836,9 @@
   height: 20px;
   background-color: rgb(77, 70, 177);
   position: absolute;
-  top: 330px;
+  top: 350px;
   left: 40px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -847,9 +848,9 @@
   height: 20px;
   background-color: rgb(77, 70, 177);
   position: absolute;
-  top: 305px;
+  top: 325px;
   left: 30px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -859,9 +860,9 @@
   height: 150px;
   background-color: rgb(111, 104, 213);
   position: absolute;
-  top: 40px;
+  top: 60px;
   left: 30px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -869,27 +870,27 @@
 #snowTreeL {
   width: 30px;
   height: 30px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;    
   background-color: rgb(186, 134, 29);
   position: absolute;
-  top: 360px;
+  top: 380px;
   left: 90px;
-       
+  z-index: 1;    
   transform: rotate(236deg);
 }
 #snowTreeR {
   width: 30px;
   height: 30px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;    
   background-color: rgb(186, 134, 29);
   position: absolute;
-  top: 240px;
+  top: 260px;
   left: 70px;
-       
+  z-index: 1;    
   transform: rotate(290eg);
 }
 #snowLeavesL {
@@ -900,9 +901,9 @@
   border-top: 90px solid;
   border-color: rgb(30, 97, 148) transparent;
   position: absolute;
-  top: 360px;
+  top: 380px;
   left: 45px;
-       
+  z-index: 1;    
   transform: rotate(55deg);
 }
 #snowLeavesR {
@@ -913,9 +914,9 @@
   border-top: 90px solid;
   border-color: rgb(30, 97, 148) transparent;
   position: absolute;
-  top: 210px;
+  top: 230px;
   left: 5px;
-       
+  z-index: 1;    
   transform: rotate(85deg);
 }
 
@@ -927,18 +928,18 @@
   border-top: 160px solid;
   border-color: rgb(24, 98, 183) transparent;
   position: absolute;
-  top: 102px;
+  top: 122px;
   left: 212px;
-       
+  z-index: 1;    
 }
 #castleLily1 {
   width: 50px;
   height: 30px;
   background-color: rgb(34, 254, 45);
   position: absolute;
-  top: 122px;
+  top: 142px;
   left: 240px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -948,9 +949,9 @@
   height: 30px;
   background-color: rgb(34, 254, 45);
   position: absolute;
-  top: 162px;
+  top: 182px;
   left: 260px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -960,9 +961,9 @@
   height: 85px;
   background-color: rgb(54, 125, 58);
   position: absolute;
-  top: 150px;
+  top: 170px;
   left: 330px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -973,9 +974,9 @@
   height: 65px;
   background-color: rgb(78, 205, 84);
   position: absolute;
-  top: 160px;
+  top: 180px;
   left: 340px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -986,9 +987,9 @@
   height: 65px;
   background-color: rgb(129, 87, 48);
   position: absolute;
-  top: 280px;
+  top: 300px;
   left: 390px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -999,9 +1000,9 @@
   height: 85px;
   background-color: rgb(243, 255, 218);
   position: absolute;
-  top: 380px;
+  top: 400px;
   left: 270px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -1015,22 +1016,22 @@
   border-top: 170px solid;
   border-color: rgb(70, 104, 255) transparent;
   position: absolute;    
-  top: 280px;
+  top: 300px;
   left: 175px;
-       
+  z-index: 1;    
   transform: rotate(208deg);
 }
 #waterLog {
   width: 50px;
   height: 30px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;    
   background-color: rgb(128, 93, 24);
   position: absolute;
-  top: 420px;
+  top: 440px;
   left: 180px;
-       
+  z-index: 1;    
   transform: rotate(200deg);
 }
 #snowScarves {
@@ -1038,9 +1039,9 @@
   height: 85px;
   background-color: rgb(243, 255, 218);
   position: absolute;
-  top: 260px;
+  top: 280px;
   left: 50px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -1051,9 +1052,9 @@
   height: 150px;
   background-color: rgb(56, 50, 139);
   position: absolute;
-  top: 75px;
+  top: 95px;
   left: 120px;
-   
+  z-index: 1;
   outline-style: solid;
   outline-width: 0px;
   border-radius: 50%;
@@ -1064,7 +1065,7 @@
   height: 200px;
   position: absolute;
   animation: spin 50s infinite linear;    
-  top: 00%;
+  top: 110;
   left: 50%;
   transform: translate(-0%, -0%);
   transform-origin: center;
